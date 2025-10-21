@@ -1,0 +1,21 @@
+{
+  "menuTitle": "Menu",
+  "searchRestaurants": "Discover",
+  "likedRestaurants": "Liked Restaurants",
+  "settings": "Settings",
+  "discoverRestaurants": "Discover Restaurants",
+  "noLikedRestaurants": "You haven’t liked any restaurants yet.",
+  "genre": "Genre",
+  "budget": "Budget",
+  "close": "Close",
+  "english": "English",
+  "japanese": "Japanese",
+  "clearFilter": "Clear filter",
+  "noRestaurantsFound": "No restaurants found.",
+  "fetchError": "Failed to load restaurants.",
+  "poweredBy": "Powered by Hot Pepper Gourmet Web Service",
+  "like": "Like",
+  "nope": "Nope",
+  "details": "Details",
+  "refresh": "Refresh"
+}

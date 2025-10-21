@@ -1,0 +1,21 @@
+{
+  "menuTitle": "メニュー",
+  "searchRestaurants": "レストランを探す",
+  "likedRestaurants": "お気に入りのレストラン",
+  "settings": "設定",
+  "discoverRestaurants": "レストランを見る",
+  "noLikedRestaurants": "お気に入りのレストランがまだありません。",
+  "genre": "ジャンル",
+  "budget": "予算",
+  "close": "閉じる",
+  "english": "英語",
+  "japanese": "日本語",
+  "clearFilter": "フィルターをクリア",
+  "noRestaurantsFound": "レストランが見つかりません。",
+  "fetchError": "レストランの読み込みに失敗しました。",
+  "poweredBy": "ホットペッパーグルメ Webサービス",
+  "like": "いいね",
+  "nope": "スキップ",
+  "details": "詳細",
+  "refresh": "更新"
+}
