@@ -114,10 +114,6 @@ lib/
 
 Comprehensive project documentation is available in the [`docs/`](./docs/) directory:
 
-- **[CHANGELOG.md](./docs/CHANGELOG.md)** - Detailed changelog of all changes and features
-- **[ROADMAP.md](./docs/ROADMAP.md)** - Future plans and feature roadmap
-- **[DEVELOPMENT.md](./docs/DEVELOPMENT.md)** - Development notes and technical details
-- **[ARCHITECTURE.md](./docs/ARCHITECTURE.md)** - System architecture and design decisions
 - **[PROGRESS.md](./docs/PROGRESS.md)** - Progress tracking and milestones
 
 See the [Documentation README](./docs/README.md) for more information on the documentation structure.
