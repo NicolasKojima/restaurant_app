@@ -9,7 +9,7 @@ import '../models/restaurant.dart';
 import '../widgets/restaurant_card.dart';
 import '../providers/likes_provider.dart';
 import '../services/hotpepper_service.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import '../l10n/generated/app_localizations.dart';
 
 
 class RestaurantSwipePage extends StatefulWidget {

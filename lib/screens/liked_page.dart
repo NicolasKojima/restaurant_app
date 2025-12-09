@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/likes_provider.dart';
 import '../models/restaurant.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import '../l10n/generated/app_localizations.dart';
 
 class LikedPage extends StatefulWidget {
   const LikedPage({Key? key}) : super(key: key);
@@ -35,7 +35,7 @@ class _LikedPageState extends State<LikedPage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(AppLocalizations.of(context).likedRestaurants),
+        title: Text(AppLocalizations.of(context)!.likedRestaurants),
         actions: [
           if (selectedGenre != null)
             IconButton(
@@ -46,7 +46,7 @@ class _LikedPageState extends State<LikedPage> {
         ],
       ),
       body: likes.isEmpty
-        ? Center(child: Text(AppLocalizations.of(context).noLikedRestaurants))
+        ? Center(child: Text(AppLocalizations.of(context)!.noLikedRestaurants))
         : Column(
             children: [
               if (genres.isNotEmpty)

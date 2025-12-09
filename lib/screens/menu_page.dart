@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'swipe_page.dart';
 import 'liked_page.dart';
 import 'settings_page.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import '../l10n/generated/app_localizations.dart';
 
 class MenuPage extends StatelessWidget {
   const MenuPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    final loc = AppLocalizations.of(context);
+    final loc = AppLocalizations.of(context)!;
     final size = MediaQuery.of(context).size;
     final buttonWidth = size.width * 0.6; // 60% of screen width
     final buttonHeight = size.height * 0.08; // 8% of screen height
