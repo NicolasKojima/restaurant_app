@@ -5,6 +5,10 @@ import 'package:provider/provider.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 import 'screens/menu_page.dart';
+import 'screens/login_page.dart';
+import 'screens/swipe_page.dart';
+import 'screens/liked_page.dart';
+import 'screens/settings_page.dart';
 import 'providers/locale_provider.dart';
 import 'providers/likes_provider.dart';
 
@@ -43,7 +47,15 @@ class RestaurantSwipeApp extends StatelessWidget {
         GlobalWidgetsLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate,
       ],
+      // Temporarily set to MenuPage for development - change back to LoginPage() when done
       home: const MenuPage(),
+      routes: {
+        '/login': (context) => const LoginPage(),
+        '/menu': (context) => const MenuPage(),
+        '/swipe': (context) => const RestaurantSwipePage(),
+        '/liked': (context) => const LikedPage(),
+        '/settings': (context) => SettingsPage(),
+      },
       theme: ThemeData(useMaterial3: true, colorSchemeSeed: Colors.orange),
     );
   }
